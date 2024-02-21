@@ -1,23 +1,31 @@
 // import the creatTheams from the material ui 
 import { createTheme } from "@mui/material";
 
-//  we have to pass the object 
-// we can customize everythins like colors 
-// for the colors we  have the pallates 
 
 const theams = createTheme({
   palette:{
     primary:{
-      main:"#FFBE98",
-      light: "#C70039",
-      dark: "#B8854F",
+      main:"#0C359E",
+      light: "#A0BFE0",
+      dark: "#A0BFE0",
     },
-    secondary:{
+   
+    ternary:{
+      main:"#070F2B",
+      light: "#001C30",
+      dark:"#070F2B"
+    },
+  
+    text:{
       main:"#071952",
       light: "#8C9EFF",
-      dark: "#1A237E",
+      dark: "#070F2B",
+      white:"#fff",
+      whitesmoke:"#EEEEEE",
     }
-  }
+  },
+
+
 })
 
 export default theams
